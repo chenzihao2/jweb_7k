@@ -1,0 +1,63 @@
+{
+  "name": "jweb",
+  "version": "1.3.13",
+  "description": "A typeScript httpServer support annotation",
+  "main": "build/index.js",
+  "typings": "types/index.d.ts",
+  "files": [
+    "build/**/*.js",
+    "types/*.d.ts"
+  ],
+  "scripts": {
+    "tsc": "tsc",
+    "tsc-watch": "tsc -w",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon --watch build/ build/lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/7kgame/jweb.git"
+  },
+  "keywords": [
+    "httpServer",
+    "typeScript",
+    "annotation"
+  ],
+  "author": "cyij2006@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/7kgame/jweb/issues"
+  },
+  "homepage": "https://github.com/7kgame/jweb#readme",
+  "dependencies": {
+    "@hapi/boom": "7.x.x",
+    "@hapi/hapi": "^18.x.x",
+    "@hapi/inert": "^5.x.x",
+    "ejs": "^2.x.x",
+    "formidable": "^1.2.1",
+    "jbean": "x.x.x",
+    "path-to-regexp": "^3.1.0",
+    "yaml": "^1.x.x"
+  },
+  "devDependencies": {
+    "@types/boom": "^7.x.x",
+    "@types/ejs": "^2.x.x",
+    "@types/formidable": "^1.0.31",
+    "@types/hapi": "^18.x.x",
+    "@types/inert": "^5.x.x",
+    "@types/node": "^12.0.7",
+    "@types/yaml": "^1.x.x",
+    "@typescript-eslint/parser": "^2.2.0",
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  },
+  "engines": {
+    "node": ">= 10.0.0",
+    "npm": ">= 6.0.0"
+  }
+}
